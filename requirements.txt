@@ -1,0 +1,39 @@
+# Run before installing:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+# Data Manipulation Libraries
+numpy
+pandas
+slugify
+
+# Visualization Libraries
+matplotlib
+seaborn
+
+# Preprocessing Libraries
+tqdm
+regex
+datasketch
+
+# Natural Language Processing Libraries
+nltk
+spacy
+langdetect
+
+# Web Scraping Libraries
+requests
+beautifulsoup4
+
+# Machine Learning Libraries
+scikit-learn
+tensorflow
+keras
+optuna
+transformers
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+torchaudio==2.2.2+cu121
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Web Interface
+streamlit

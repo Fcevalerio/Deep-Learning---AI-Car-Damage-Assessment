@@ -1,0 +1,13 @@
+{
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.suggest.selectionMode": "always",
+    "editor.tabCompletion": "on",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.inlineSuggest.enabled": true,
+    "python.defaultInterpreterPath": "C:\\Users\\fceva\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "python.analysis.logLevel": "Trace"
+}

@@ -45,9 +45,9 @@ Streamlit UI → Cloud LLM (via API using `.env` credentials) → Human-friendly
 graph LR
   U[User Browser] --> S[Streamlit UI]
   S --> M[Local CNN Detector]
-  M --> R[Damage Report (JSON)]
+  M --> R["Damage Report (JSON)"]
   S -->|sends report| L[Cloud LLM]
-  L --> A[Human-friendly Assessment]
+  L --> A["Human-friendly Assessment"]
   A --> U
   S -->|optional| Storage[(S3 / Logs)]
 ```
